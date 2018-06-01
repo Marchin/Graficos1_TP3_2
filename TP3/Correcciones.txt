@@ -1,3 +1,0 @@
--Falta de enemigo
--Imagen escalada incorrectamente
--No se detecta input ni eventos
