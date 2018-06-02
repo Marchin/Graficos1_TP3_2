@@ -1,4 +1,4 @@
-#include "allegro5\allegro.h"
+#include "allegro5/allegro.h"
 #include "allegro5/allegro_image.h"
 #include "allegro5/allegro_native_dialog.h"
 
@@ -33,7 +33,7 @@ int main(int argc, char **argv){
 
 
    while (playing) {
-	   al_draw_bitmap(image, 1, 1, 0);
+	   al_draw_scaled_bitmap(image, 0, 0, 894, 894, 0, 0, 32, 32, 1);
 	   al_flip_display();
 
    }
